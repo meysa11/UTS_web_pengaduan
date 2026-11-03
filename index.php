@@ -61,7 +61,7 @@ if (isset($_POST["cari"])) {
 
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.php">
-                <div class="sidebar-brand-text mx-3">Pengaduan App</div>
+                <div class="sidebar-brand-text mx-3">Pengaduan Home</div>
             </a>
 
             <hr class="sidebar-divider my-0">
