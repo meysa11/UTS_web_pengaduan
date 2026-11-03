@@ -47,7 +47,6 @@ if(isset($_POST['submit'])){
                 <input type="text" name="nama_pelapor" placeholder="Masukkan nama pelapor" required>
             </div>
 
-            <!-- Bagian Kategori Diganti Menjadi Dropdown / Option -->
             <div class="form-group">
                 <label for="kategori">Kategori</label>
                 <select name="kategori" id="kategori" required style="width: 100%; padding: 10px 12px; border: 1px solid #d7dce5; border-radius: 6px; font-size: 14px; outline: none; background-color: white;">

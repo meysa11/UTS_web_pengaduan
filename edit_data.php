@@ -56,7 +56,12 @@ if (isset($_POST["submit"])){
 
             <div class="form-group">
                 <label for="kategori">Kategori</label>
-                <input type="text" name="kategori" value="<?= $pengaduan["kategori"]; ?>" required>
+                <select name="kategori" id="kategori" required style="width: 100%; padding: 10px 12px; border: 1px solid #d7dce5; border-radius: 6px; font-size: 14px; outline: none; background-color: white;">
+                    <option value="">-- Pilih Kategori --</option>
+                    <option value="Fasilitas">Fasilitas</option>
+                    <option value="Keamanan">Keamanan</option>
+                    <option value="Pelayanan">Pelayanan</option>
+                </select>
             </div>
 
             <div class="form-group">
