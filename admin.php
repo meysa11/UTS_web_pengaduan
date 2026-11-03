@@ -16,6 +16,7 @@ if (isset($_POST["cari"])) {
     $pengaduan = cari_data($keyword);
     $jumlahHalaman = 1;
     $halamanAktif = 1;
+    $awalData = 0; 
 } else {
     $jumlahData = count(query_db("SELECT * FROM pengaduan"));
     $jumlahHalaman = ceil($jumlahData / $jumlahDataPerHalaman);
